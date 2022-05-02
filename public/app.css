@@ -1,0 +1,113 @@
+body {
+    background: lightgoldenrodyellow;
+    color: #222222;
+    max-width: 600px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+p {
+    line-height: 1.2;
+}
+
+article + article {
+    margin-top: 1rem;
+    border-top: 3px solid #C5C5C5;
+}
+
+.comment {
+    background: silver;
+    padding: 5px 20px 5px 20px;
+    border: 2px solid silver;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+textarea {
+    background: papayawhip;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.links {
+    margin: 5px;
+    padding: 2px;
+}
+
+a:link, a:visited {
+    background-color: lightgoldenrodyellow;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    margin: 3px;
+}
+
+a:hover, a:active {
+    background-color: lightblue;
+    border-radius: 4px;
+}
+
+.createUpdate {
+    margin-top: 2rem;
+}
+
+button {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.account-form {
+    height: 520px;
+    width: 400px;
+    background-color: rgba(217, 9, 9, 0.13);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+}
+
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.sign-up {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+}
